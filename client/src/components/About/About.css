@@ -1,0 +1,33 @@
+.About {
+	text-align: center;
+}
+
+.About > div:not(.Team) {
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+.About p {
+	line-height: 1.3;
+}
+
+.Team {
+	margin-top: 40px;
+}
+
+.Team img {
+	border-radius: 75px;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+.Team > div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: lightgoldenrodyellow;
+	width: 300px;
+	margin: 20px auto;
+	padding: 20px;
+}

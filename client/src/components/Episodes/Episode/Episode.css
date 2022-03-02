@@ -1,0 +1,37 @@
+.Episode {
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid grey;
+	text-align: left;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.Episode > img {
+	align-self: center;
+	width: 150px;
+}
+
+.Episode h2 {
+	margin: 20px 0 10px;
+}
+
+
+.Episode p {
+	margin-top: 20px;
+}
+
+
+.Episode time {
+	/* align-self: center;
+	margin: 10px auto; */
+	color: indianred;
+	/* padding: 10px 0; */
+  display: block;
+}
+
+.Episode button {
+	margin-top: 20px;
+}
+

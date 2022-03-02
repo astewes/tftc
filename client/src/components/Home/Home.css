@@ -1,0 +1,27 @@
+.cta {
+	position: absolute;
+	bottom: 0;
+	padding: 50px 80px 40px;
+	text-align: left;
+	width: 100%;
+}
+
+.cta > img {
+	height: 150px;
+	width: 150px;
+}
+
+.cta h1 {
+	margin-bottom: 0;
+}
+
+.latest {
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+.latest > div:not(.grid) {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 15px;
+}
