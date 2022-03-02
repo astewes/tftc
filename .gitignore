@@ -4,10 +4,9 @@
 /node_modules
 /.pnp
 .pnp.js
-*package-lock.json
+package-lock.json
 node_modules/
-client/node_modules/
-client/package-lock.json
+.gitignore
 
 # testing
 /coverage
