@@ -11,7 +11,7 @@ const Contact = () => {
 		e.preventDefault();
 
 		const data = { name, email, message };
-		axios.post('http://localhost:8080/api', {
+		axios.post('/api', {
 			method: 'POST',
 			headers: {
 				'Accept': 'application/json',

@@ -10,8 +10,11 @@
   "scripts": {
     "server": "node server/index.js",
     "client": "cd client && npm start",
-    "build:client": "cd client && npm run build",
+    "build:client": "cd client && npm install && npm run build",
     "iall": "npm install && cd client && npm install",
     "startboth": "npm run server && npm run client"
-  }
+  },
+	"engines": {
+		"node": "17.6.0"
+	}
 }

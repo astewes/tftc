@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d6f8a381.css",
+    "main.js": "/static/js/main.77408d18.js",
+    "static/js/787.5ec791c5.chunk.js": "/static/js/787.5ec791c5.chunk.js",
+    "static/media/artwork-500x500.png": "/static/media/artwork-500x500.fd0086168461d3d82dc2.png",
+    "static/media/Louis George Cafe.ttf": "/static/media/Louis George Cafe.17cd25f83710eb436d1e.ttf",
+    "static/media/host.jpg": "/static/media/host.50cb688ecf436540d7d3.jpg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.d6f8a381.css.map": "/static/css/main.d6f8a381.css.map",
+    "main.77408d18.js.map": "/static/js/main.77408d18.js.map",
+    "787.5ec791c5.chunk.js.map": "/static/js/787.5ec791c5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6f8a381.css",
+    "static/js/main.77408d18.js"
+  ]
+}

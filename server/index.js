@@ -11,7 +11,21 @@ app.options('*', cors());
 
 app.get('/api', (req, res) => {
 	res.send('Welcome to the backend!')
-})
+});
+
+// begin test
+// all other GET requests not handled before will return our React app
+app.get('*', (req, res) => {
+	res.sendFile(path.resolve(__dirname, '../client/build', 'index.html'));
+});
+// have Node serve the files for our built React app
+app.use(express.static(path.resolve(__dirname, '../client/build')));
+// app.use(express.static(path.join(__dirname, 'build')));
+
+// app.get('/*', function (req, res) {
+// 	res.sendFile(path.join(__dirname, 'build', 'index.html'));
+// });
+// end test
 
 app.use('/public', express.static(path.join(__dirname, 'public')));
 
@@ -48,5 +62,5 @@ app.post('/api', cors(), (req, res) => {
 	});
 });
 
-const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT || 3001
 app.listen(PORT, () => console.info(`server has started on ${PORT}`))
